@@ -8,7 +8,6 @@ export default function URLShortener() {
   const handleSubmit = (e) => {
     e.preventDefault();
     const input = document.getElementById('urlInput')
-    console.log(url)
 
       fetch(`https://api.shrtco.de/v2/shorten?url=${url}`)
       .then((res) => res.json())

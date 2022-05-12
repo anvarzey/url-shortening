@@ -38,7 +38,8 @@ export default function URLConverted({ urlID, original, shortened }) {
         storageArray[i][1] + "," + storageArray[i][2]
       );
     }
-    event.target.parentElement.parentElement.remove();
+
+     event.target.parentNode.parentNode.parentNode.remove();
   };
 
   return (
