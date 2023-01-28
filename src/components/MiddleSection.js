@@ -27,7 +27,7 @@ export default function MiddleSection() {
   return(
     <section className="bg-custom-gray mt-36 pb-20 w-full inline-block">
       <URLShortener />
-      <h3 className="font-bold text-2xl mx-auto w-8/12 max-w-sm color-custom-blue lg:text-3xl lg:text-center mt-24">
+      <h3 className="font-bold text-2xl mx-auto w-fit max-w-sm color-custom-blue lg:text-3xl lg:text-center mt-24">
         Advanced Statistics
       </h3>
       <p className="w-9/12 max-w-lg mx-auto text-center text-sm mt-5 color-custom-gray-violet lg:text-base">

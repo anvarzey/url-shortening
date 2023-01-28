@@ -5,7 +5,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
 
-:root{
+:root {
   --Cyan: hsl(180, 66%, 49%);
   --Dark-Violet: hsl(258, 27%, 26%);
   --Violet: hsl(257, 24%, 34%);
@@ -23,60 +23,60 @@ body {
   overflow-x: hidden;
 }
 
-.bg-custom-violet{
+.bg-custom-violet {
   background-color: var(--Dark-Violet);
 }
 
-.bg-custom-dark-violet{
+.bg-custom-dark-violet {
   background-color: var(--Very-Dark-Violet);
 }
 
-.bg-custom-btn{
+.bg-custom-btn {
   background-color: var(--Cyan);
 }
 
-.bg-custom-btn:active{
+.bg-custom-btn:active {
   opacity: 0.5;
 }
 
-.bg-custom-copied{
+.bg-custom-copied {
   background-color: var(--Dark-Violet);
 }
 
-.bg-custom-gray{
+.bg-custom-gray {
   background-color: hsl(257, 15%, 90%);
 }
 
-.color-custom-gray{
+.color-custom-gray {
   color: var(--Gray);
 }
 
-.color-custom-cyan{
+.color-custom-cyan {
   color: var(--Cyan);
 }
 
-.color-custom-gray-violet{
+.color-custom-gray-violet {
   color: var(--Grayish-Violet);
 }
 
-.color-custom-blue{
+.color-custom-blue {
   color: var(--Very-Dark-Blue);
 }
 
-.bg-shorten{
+.bg-shorten {
   background-image: url("../public/images/bg-shorten-mobile.svg");
   background-repeat: no-repeat;
   background-position: 100% 0%;
   background-size: 72% 80%;
 }
 
-.bg-boost{
+.bg-boost {
   background-image: url("../public/images/bg-boost-mobile.svg");
   background-repeat: no-repeat;
   background-position: 100% 70%;
 }
 
-.card-line{
+.card-line {
   content: '';
   background-color: var(--Cyan);
   width: 0.5em;
@@ -88,20 +88,20 @@ body {
 }
 
 #urlInput:invalid:focus {
- border: 3px solid var(--Red);
- outline: none;
+  border: 3px solid var(--Red);
+  outline: none;
 }
 
-#urlInput:invalid:focus::placeholder{
+#urlInput:invalid:focus::placeholder {
   color: var(--Red);
   opacity: 0.5;
 }
 
-.icon-hoverable:hover path{
+.icon-hoverable:hover path {
   fill: var(--Cyan);
 }
 
-#urlInput ~ label {
+#urlInput~label {
   display: none;
   color: var(--Red);
   position: absolute;
@@ -109,27 +109,28 @@ body {
   font-size: 0.65rem;
   top: 42%;
 }
-#urlInput:invalid:focus ~ label{
+
+#urlInput:invalid:focus~label {
   display: block;
 }
 
-#dropdownMenu[display= "true"]{
+#dropdownMenu[display="true"] {
   display: flex;
 }
 
-#resources{
+#resources {
   border-bottom: 1px solid var(--Violet);
 }
 
-.max-height{
+.max-height {
   max-height: 27rem;
 }
 
-.btn-hover:hover{
+.btn-hover:hover {
   color: hsl(0, 0%, 95%);
 }
 
-.btn-hover:hover::after{
+.btn-hover:hover::after {
   content: '';
   position: absolute;
   border-radius: 6em;
@@ -140,19 +141,15 @@ body {
   height: 100%;
 }
 
-.link-hover-cyan:hover{
+.link-hover-cyan:hover {
   color: var(--Cyan);
 }
 
-.btn-hover:hover[type= "submit"]::after {
+.btn-hover:hover[type="submit"]::after {
   border-radius: 6px;
 }
 
-.delete-btn{
-  display: none;
-}
-
-.delete-label{
+.delete-label {
   width: 1.5em;
   height: 1.5em;
   background-color: var(--Red);
@@ -160,31 +157,31 @@ body {
   right: -0.5em;
 }
 
-@media screen and (min-width: 1024px){
-  .delete-label{
+@media screen and (min-width: 1024px) {
+  .delete-label {
     display: none;
   }
 
-  .delete-btn{
+  .delete-btn {
     color: var(--Grayish-Violet);
   }
 
-  .delete-btn:hover{
+  .delete-btn:hover {
     color: var(--Red);
   }
 
-  #resources{
+  #resources {
     border-bottom: none;
   }
 
-  #urlInput ~ label{
+  #urlInput~label {
     font-size: 0.85rem;
     left: 4%;
     top: 74%;
 
   }
 
-  .card-line{
+  .card-line {
     height: 0.5em;
     width: 48em;
     top: 50%;
@@ -192,18 +189,19 @@ body {
     z-index: 0;
   }
 
-  .bg-boost{
+  .bg-boost {
     background-image: url("../public/images/bg-boost-desktop.svg");
     background-repeat: no-repeat;
   }
 
-  .bg-shorten{
-    background-image: url("../public/images/bg-shorten-desktop.svg");;
+  .bg-shorten {
+    background-image: url("../public/images/bg-shorten-desktop.svg");
+    ;
     background-repeat: no-repeat;
     background-size: cover;
   }
 
-  .lg-color-custom-gray{
+  .lg-color-custom-gray {
     color: var(--Gray);
   }
 

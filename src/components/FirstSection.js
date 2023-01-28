@@ -5,7 +5,7 @@ export default function FirstSection() {
     <section className="mt-10 lg:grid lg:grid-cols-2  max-w-screen-lg mx-auto max-h-max lg:justify-start">
       <div className="h-96' lg:col-start-2 lg:col-end-3 lg:row-start-1 lg:h-max lg:row-end-4 lg:relative lg:left-16 lg:w-max">
         <img
-          className="object-cover h-80 object-left pl-7  lg:pl-0 lg:w-full"
+          className="object-cover h-80 object-left pl-7 mx-auto lg:pl-0 lg:w-full"
           src="../images/illustration-working.svg"
           alt="woman working"
         />
